@@ -1,0 +1,59 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 2rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body  {
+    background-image: url("https://i.pinimg.com/originals/25/6e/3d/256e3d209457dc24d05ee39f2773a7a4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+#Title {
+  color: #ffffff;
+  text-align:center;
+  font-size: 4rem;
+}
